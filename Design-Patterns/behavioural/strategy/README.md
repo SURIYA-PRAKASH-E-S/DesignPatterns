@@ -89,9 +89,9 @@ The system should allow selecting a payment method at runtime without changing t
    ```
 
 3. Run the program:
-  ```bash
-  java Main
-  ```
+   ```bash
+   java Main
+   ```
 ---
 
 ## Expected Output
