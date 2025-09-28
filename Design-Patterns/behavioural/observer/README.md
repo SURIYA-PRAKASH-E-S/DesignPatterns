@@ -1,14 +1,14 @@
 
 
-## 📘 Pattern Name
+## Pattern Name
 **Observer Pattern**
 
-## 🎯 Pattern Category
+## Pattern Category
 **Behavioural**
 
 ---
 
-## 📖 Description
+## Description
 
 - The **Observer pattern** defines a **one-to-many dependency** between objects so that when one object changes state, all its dependents are notified and updated automatically.
 - It helps establish **loose coupling** between the **subject** and its **observers**.
@@ -16,7 +16,7 @@
 
 ---
 
-## ❗ The Problem
+## The Problem
 
 You want to:
 - Notify multiple systems when an order status changes.
@@ -27,7 +27,7 @@ You want to:
 
 ---
 
-## ✅ The Solution
+## The Solution
 
 - Create a **Subject interface** (`Subject.java`) that defines how observers are managed.
 - Create an **Observer interface** (`Observer.java`) with an `update()` method.
@@ -37,7 +37,7 @@ You want to:
 
 ---
 
-## ⚙️ Code Flow 
+## Code Flow 
 
 ### Components
 
@@ -62,7 +62,7 @@ You want to:
 
 ---
 
-## 🌍 Real-World Use Case: Flipkart Order Tracking
+## Real-World Use Case: Flipkart Order Tracking
 
 When a customer places an order:
 - The OrderSystem updates the status (Placed, Shipped, Delivered).
@@ -73,7 +73,7 @@ When a customer places an order:
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 - Loose Coupling – Services don't need to know about the OrderSystem's internals.
 
@@ -101,7 +101,7 @@ When a customer places an order:
 
 ---
 
-## ⚠️ Drawbacks
+## Drawbacks
 
 - Memory Leaks if observers aren't removed properly.
 
@@ -129,8 +129,9 @@ When a customer places an order:
 ```
 ## Expected Output
 
---- Observer Pattern Demo ---
 ```sh
+--- Observer Pattern Demo ---
+
 Order ORDER#123 status changed to: Placed
 Customer App: Order ORDER#123 is now Placed
 Seller Dashboard: Order ORDER#123 updated to Placed
