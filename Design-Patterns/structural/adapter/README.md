@@ -1,4 +1,3 @@
-# Adapter Pattern – Media Player
 
 ## Pattern Name
 **Adapter**
