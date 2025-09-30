@@ -8,11 +8,9 @@ A simple **console-based real-time chat system** in Java, built with **OOP princ
 Build a console-based real-time chat application where users can create or join chat rooms using a unique ID. Users must be able to send/receive messages instantly, view active participants, and optionally use private messaging and message history
 
 ##  Description
-This project demonstrates how to build a **multi-user chat system** in Java using sockets.  
-It allows users to join or create chat rooms, send messages, view active users, and access chat history.
-It focuses on logic, OOP, and design quality rather than UI, making it a practical example of applying software engineering principles to real-time communication.  
+This project demonstrates how to build a **multi-user chat system** in Java using sockets.It allows users to join or create chat rooms, send messages, view active users, and access chat history.It focuses on logic, OOP, and design quality rather than UI, making it a practical example of applying software engineering principles to real-time communication.  
 
-*Focus areas:*
+### Focus areas:
 - **Observer Pattern**: Notify all clients in a room of new events.
 - **Singleton Pattern**: Manage chat rooms globally.
 - **Adapter Pattern**: Abstract communication layer for extensibility.
@@ -60,11 +58,11 @@ It focuses on logic, OOP, and design quality rather than UI, making it a practic
 
 ---
 
-##  How to Execute Code
+##  How it Works
 1. Compile all `.java` files:
-   ```bash
-   javac *.java
-   ```
+  ```bash
+  javac *.java
+  ```
 2. Start server (default port 9090):
   ```bash
   java ChatServer 9090
@@ -90,9 +88,10 @@ It focuses on logic, OOP, and design quality rather than UI, making it a practic
 - `/q` → quit
 
 ---
-## 🖥️ Expected Output
+## Expected Output
 
 *Example session with 3 clients:* (in Separate terminals)
+
 `client-1 (Alice)`
 ```sh
 WELCOME SimpleChatServer.Please /jn <roomId> <username>
