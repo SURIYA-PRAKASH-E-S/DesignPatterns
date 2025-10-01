@@ -13,7 +13,7 @@ DesignPatterns/
 └── README.md
 ```
 
-* **Exercise1/DesignPatterns**: Basic pattern examples and their usage.
+* **Exercise1/Design-Pattern**: Basic pattern examples and their usage.
 * **Exercise2/Mini-Project**: A small project combining multiple patterns.
 
 ## How It Works
