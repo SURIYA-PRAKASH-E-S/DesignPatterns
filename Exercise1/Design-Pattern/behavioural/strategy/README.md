@@ -10,11 +10,14 @@ Behavioural
 - The **Strategy pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable.  
 - It allows the algorithm to vary independently from clients that use it.  
 - Think of it like choosing a **payment method** – credit card, UPI, wallet, or cash on delivery. The checkout flow remains the same, but the payment logic varies.  
-- It’s useful when multiple approaches can achieve the same task and need to be interchangeable.  
+- It’s useful when multiple approaches can achieve the same task and need to be interchangeable. 
+
+*Key Idea :*
+"Define a family of algorithms, encapsulate them, and allow choosing one at runtime without changing the main logic."
 
 ---
 
-## Problem Statement (Flipkart Payments)
+## Problem Statement 
 Flipkart supports multiple payment methods like Credit Card, UPI, Wallet, and Cash on Delivery.  
 The system should allow selecting a payment method at runtime without changing the core order-processing logic.
 
@@ -120,7 +123,7 @@ Paid Rs.300.0 using Cash on Delivery
 
 ---
 
-## SAnalogy
+## Analogy
 
 Think of it like choosing transportation:
 

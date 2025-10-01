@@ -132,3 +132,16 @@ Playing VLC file: video.vlc
 - Client interacts with a single standard interface.
 
 - New formats can be integrated easily via adapters.
+
+---
+## Analogy
+
+*Think of it like power plug converter:*
+
+- Device = Client needing 220V
+
+- Power Source = Existing 110V socket
+
+- Adapter = Converts voltage to compatible format
+
+`Result:` Device works correctly without changing its internal design.

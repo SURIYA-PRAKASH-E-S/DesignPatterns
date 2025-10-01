@@ -132,3 +132,17 @@ Bold + Italic + Underline: _***Hello World***_
 - Supports clean, maintainable, and extendable code.
 
 - Each decorator wraps the original object without modifying it.
+
+---
+
+## Analogy
+
+*Think of it like decorating a Christmas tree:*
+
+- Tree = Original object
+
+- Ornaments, Lights, Stars = Decorators
+
+- Decorator Methods = Add decorations dynamically
+
+`Result:` Each decoration wraps the original tree, enhancing it without changing the base.

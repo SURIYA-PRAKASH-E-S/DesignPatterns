@@ -1,6 +1,6 @@
 
 ## Pattern Name
-**Builder**
+**Builder Pattern**
 
 ## Pattern Category
 Creational
@@ -149,3 +149,17 @@ Car {model='Basic Car', engine='Standard Engine', wheels='Alloy Wheels', color='
 - **Readability:** Code is self-documenting and easy to understand.
 
 - **Maintainability:** Easy to add new car parts or change defaults.
+---
+## Analogy
+
+*Think of it like making a Pizza:*
+
+- Dough = Base object.
+
+- Toppings (cheese, veggies, meat) = Step-by-step additions.
+
+- Builder = Chef who assembles the pizza gradually.
+
+- Final Pizza = Completed product after all steps.
+
+`Result:` Instead of dumping everything at once, the pizza is built step by step until ready to serve.

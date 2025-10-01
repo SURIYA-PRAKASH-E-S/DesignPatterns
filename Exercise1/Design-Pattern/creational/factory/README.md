@@ -130,3 +130,15 @@ Preparing a fresh salad
 
 - Widely used in real-world applications with multiple product types.
 
+---
+## Analogy
+
+*Think of it like ordering drinks at a cafe:*
+
+- Barista = Factory (creates the drink)
+
+- Customer Order = Client request (Coffee, Tea, Juice)
+
+- Drink Objects = Concrete products (Coffee cup, Tea cup, Juice glass)
+
+`Result:` Customer gets the requested drink without knowing preparation details.
