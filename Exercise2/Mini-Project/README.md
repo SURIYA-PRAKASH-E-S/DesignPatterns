@@ -65,11 +65,11 @@ This project demonstrates how to build a **multi-user chat system** in Java usin
   ```
 2. Start server (default port 9090):
   ```bash
-  java ChatServer 9090
+  java ChatServer 
   ```
 3. Start clients (in separate terminals):
   ```bash
-  java ChatClient localhost 9090
+  java ChatClient
   ```
 4. Use commands:
 
